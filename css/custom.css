@@ -5133,10 +5133,18 @@ header.main-header .header-sticky.active{
 	.section-title-content{
 		margin-top: 15px;
 	}
-
+	.footer-logo {
+        text-align: center;
+    }
+	.footer-logo .what-class {
+		display: flex;
+		color: #000;
+		justify-content: center;
+		margin-top: 0px;
+	}
 	.section-btn{
 		text-align: left;
-		margin-top: 15px;
+		margin-bottom: 15px;
 	}
 
 	.section-content-btn .section-btn{
@@ -5264,7 +5272,7 @@ header.main-header .header-sticky.active{
 	}
 
 	.why-choose-us{
-		padding: 50px 0;
+		padding: 50px 0 0px
 	}
 
 	.why-choose-content{
@@ -5438,7 +5446,6 @@ header.main-header .header-sticky.active{
 
 	.how-it-work{
 		padding: 50px 0 0;
-		margin-bottom: 220px;
 	}
 
 	.work-step-item{
@@ -5546,10 +5553,14 @@ header.main-header .header-sticky.active{
 	.testimonial-header{
 		margin-bottom: 30px;
 	}
-
+	.footer-logo h3 {
+		font-size: 22px;
+		color: #000;
+		text-align: center;
+	}
 	.testimonial-content{
 		padding-bottom: 30px;
-		margin-bottom: 30px;
+		margin-bottom: 0px;
 	}
 
 	.author-content h3{
@@ -5588,13 +5599,17 @@ header.main-header .header-sticky.active{
 
 	.main-footer-box{
 		margin-bottom: 30px;
-		padding-bottom: 30px;
+		padding-bottom: 0px;
 	}
-	
+	.footer-logo img {
+		width: auto;
+		height: 80px;
+	}
 	.footer-logo{
 		width: 100%;
 		text-align: center;
-		margin-bottom: 30px;
+		margin-bottom: 8px;
+        margin-top: 14px;
 	}
 
 	.footer-contact-details{
@@ -5750,12 +5765,21 @@ header.main-header .header-sticky.active{
 		margin-bottom: 10px;
 	}
 
-	
-	
+	.feature-item .icon-box i {
+		font-size: 34px;
+		color: #fff;
+	}
+	.feature-item .icon-box {
+		position: relative;
+		margin-right: 20px;
+		width: 100%;
+		max-width: 50px;
+		height: 50px;
+	}
 	.feature-item .icon-box{
-		width: 60px;
+		/* width: 60px;
 		height: 60px;
-		margin-bottom: 20px;
+		margin-bottom: 20px; */
 	}
 
 	.feature-item .icon-box img{
@@ -6415,7 +6439,7 @@ header.main-header .header-sticky.active{
     }
 
 	.work-step-item{
-        width: 100%;
+        width: 50%;
     }
 
 	.work-step-content{
@@ -6649,7 +6673,7 @@ header.main-header .header-sticky.active{
 	}
 
 	.feature-item{
-		width: calc(50% - 10px);
+		width: 100%;
 	}
 
 	.feature-item-content p{
